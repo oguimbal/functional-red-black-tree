@@ -1,4 +1,4 @@
-functional-red-black-tree
+Deno compatible version of [functional-red-black-tree](https://github.com/oguimbal/functional-red-black-tree)
 =========================
 A [fully persistent](http://en.wikipedia.org/wiki/Persistent_data_structure) [red-black tree](http://en.wikipedia.org/wiki/Red%E2%80%93black_tree) written 100% in JavaScript.  Works both in node.js and in the browser via [browserify](http://browserify.org/).
 
@@ -14,9 +14,9 @@ Some advantages of this is that it is possible to apply insertions and removals 
 
 Here is an example of some basic usage:
 
-```javascript
+```typescript
 //Load the library
-var createTree = require("functional-red-black-tree")
+import createTree from "https://deno.land/x/functional_red_black_tree@1.0.1/mod.ts";
 
 //Create a tree
 var t1 = createTree()
@@ -32,8 +32,8 @@ var t4 = t3.remove(1)
 
 # API
 
-```javascript
-var createTree = require("functional-red-black-tree")
+```typescript
+import createTree from "https://deno.land/x/functional_red_black_tree@1.0.1/mod.ts";
 ```
 
 ## Overview

@@ -1,6 +1,5 @@
-"use strict"
 
-module.exports = createRBTree
+export default createRBTree;
 
 var RED   = 0
 var BLACK = 1
@@ -603,7 +602,7 @@ function fixDoubleBlack(stack) {
         } else {
           //console.log("case 2: black sibling, black parent", p.right.value)
           p.right = repaint(RED, s)
-          continue  
+          continue
         }
       } else {
         //console.log("case 3: red sibling")
@@ -692,7 +691,7 @@ function fixDoubleBlack(stack) {
         } else {
           //console.log("case 2: black sibling, black parent")
           p.left = repaint(RED, s)
-          continue  
+          continue
         }
       } else {
         //console.log("case 3: red sibling")
