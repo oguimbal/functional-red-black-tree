@@ -16,7 +16,7 @@ Here is an example of some basic usage:
 
 ```typescript
 //Load the library
-import createTree from "https://deno.land/x/functional_red_black_tree@1.0.1/mod.ts";
+import createTree from "https://deno.land/x/functional_red_black_tree@1.0.1-deno/mod.ts";
 
 //Create a tree
 var t1 = createTree()
